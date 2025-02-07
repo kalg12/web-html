@@ -1,3 +1,23 @@
 body {
   background-color: rgb(220, 189, 170);
 }
+
+.tituloUno {
+  color: rgb(153, 6, 31);
+}
+
+.tituloDos {
+  color: rgb(8, 5, 92);
+}
+
+img {
+  width: 150px; /* Tamaño medio */
+  height: 150px;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+  transition: transform 0.3s ease-in-out; /* Agrega una animación suave */
+}
+
+img:hover {
+  transform: scale(1.1); /* Hace que la imagen se agrande al pasar el mouse */
+}
